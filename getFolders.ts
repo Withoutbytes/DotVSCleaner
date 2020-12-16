@@ -1,7 +1,10 @@
 import fs from "fs";
 import path from "path";
+import os from "os";
 
-let projectsFolder = path.resolve("E:\\Users\\MUTE\\source\\repos"); // Change to your folder here
+const homeFolder = os.homedir();
+
+let projectsFolder = path.resolve(homeFolder + "\\source\\repos"); // Change to your folder here
 
 const FindAllDotVSFolders = (projectsFolder: string) => {
 	let directories = fs.readdirSync(projectsFolder);
