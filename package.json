@@ -1,0 +1,13 @@
+{
+  "name": "dotvscleaner",
+  "version": "1.0.0",
+  "description": " ",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "getFolders":"ts-node getFolders",
+    "deleteFolders":"ts-node deleteFolders"
+  },
+  "author": "MUTE",
+  "license": "ISC"
+}
