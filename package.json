@@ -10,8 +10,8 @@
     "typescript": "^4.1.3"
   },
   "scripts": {
-    "getFolders": "node dist/getFolders",
-    "deleteFolders": "node dist/deleteFolders",
+    "getFolders": "node build/getFolders",
+    "deleteFolders": "node build/deleteFolders",
     "build": "tsc"
   },
   "author": "MUTE"
